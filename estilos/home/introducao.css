@@ -1,0 +1,56 @@
+.introducao-bg{
+  background: url(../../images/ChatGPT\ Image\ 24\ de\ jun.\ de\ 2025\,\ 14_25_50.png); 
+  height: 100vh;
+}
+
+.introducao-conteudo{
+  text-align: center;
+}
+
+.introducao-conteudo p {
+  font-size: 1.2rem;
+  padding-top: 200px;
+  text-align: center;
+  color: #fff;
+}
+
+.introducao-conteudo > h1.outlined-text {
+  font-size: 4.5rem;
+  color: transparent; /* Deixa o interior transparente */
+  -webkit-text-stroke: .1px rgb(231, 231, 231); /* Define a borda branca */
+  font-weight: 900; /* Peso grosso para destacar a borda */
+  margin-bottom: 20px;
+}
+
+.introducao-redes{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.introducao-redes li a img {
+  transition: transform 0.3s ease;
+}
+
+.introducao-redes li a:hover img {
+  transform: rotate(-15deg);
+}
+
+@media (max-width: 720px){
+  .introducao-conteudo > h1.outlined-text {
+  font-size: 3.5rem;
+}
+}
+
+@media (max-width: 667px){
+  .introducao-conteudo > h1.outlined-text {
+  font-size: 3rem;
+}
+}
+
+@media (max-width: 500px){
+  .introducao-conteudo > h1.outlined-text {
+  font-size: 2.5rem;
+}
+}

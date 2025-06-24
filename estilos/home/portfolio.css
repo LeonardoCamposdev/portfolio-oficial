@@ -1,0 +1,48 @@
+.portfolio-bg{
+  background-color: var(--cor-1);
+}
+
+.portfolio-conteudo{
+  text-align: center;
+}
+
+.portfolio-conteudo h1{
+  font-size: 2rem;
+}
+
+.portfolio-conteudo span{
+  font-size: 0.85rem;
+}
+
+
+.portfolio-lista{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.portfolio-lista li a img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-lista li a:hover img {
+  transform: rotate(-5deg);
+}
+
+.portfolio-lista h2{
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.portfolio-lista p{
+  font-size: .9rem;
+  margin-bottom: 12px;
+}
+
+@media (max-width:1000px){
+  .portfolio-lista{
+  grid-template-columns: 1fr;
+  gap: 80px;
+}
+}
