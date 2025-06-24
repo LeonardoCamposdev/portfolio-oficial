@@ -40,6 +40,12 @@
   margin-bottom: 12px;
 }
 
+.portfolio-ferramentas{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 @media (max-width:1000px){
   .portfolio-lista{
   grid-template-columns: 1fr;
