@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: center;
 }
 
 .sou-eu-conteudo > img{
@@ -33,12 +34,18 @@
 .sou-eu-conteudo p{
     font-size: 0.9rem;
     margin-bottom: 12px;
+    font-weight: 500;
 }
 
 .sou-eu-conteudo span{
     font-weight: 600;
     color: #0bbcff;
 
+}
+
+.sou-eu-lista li{
+     font-size: 0.9rem;;
+    font-weight: 500;
 }
 
 @media(max-width:880px){
