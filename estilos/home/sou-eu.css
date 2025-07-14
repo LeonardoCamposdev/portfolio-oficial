@@ -43,6 +43,12 @@
 
 }
 
+.sou-eu-lista{
+    border: 1px solid #0bbcff;
+    padding: 5px;
+    border-radius: 6px;
+}
+
 .sou-eu-lista li{
      font-size: 0.9rem;;
     font-weight: 500;
