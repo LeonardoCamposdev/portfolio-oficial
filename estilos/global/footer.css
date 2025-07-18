@@ -1,0 +1,31 @@
+.footer-bg{
+    background-color: var(--cor-1);
+}
+
+.linha-com-brilho {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #3DFFFF, transparent);
+  width: 100%;
+  margin: 40px auto;
+}
+
+.footer-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+
+.footer-navegacao h1, .footer-suporte h1{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-navegacao p{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.footer-suporte a{
+        font-weight: 500;
+    margin-bottom: 8px;
+}
