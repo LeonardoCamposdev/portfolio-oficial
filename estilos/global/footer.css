@@ -11,11 +11,12 @@
 
 .footer-conteudo{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
     margin-top: 100px;
 }
 
-.footer-navegacao h1, .footer-suporte h1{
+.footer-navegacao h1, .footer-suporte h1, .footer-redes h1{
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
@@ -25,7 +26,28 @@
     margin-bottom: 8px;
 }
 
+.footer-navegacao p:hover{
+    color: #0bbcff;
+}
+
 .footer-suporte a{
-        font-weight: 500;
+    font-weight: 500;
     margin-bottom: 8px;
+}
+
+.footer-suporte a:hover{
+    color: #0bbcff;
+}
+
+.footer-redes-lista{
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width:890px){
+    .footer-conteudo{
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-items: center;
+    }
 }
