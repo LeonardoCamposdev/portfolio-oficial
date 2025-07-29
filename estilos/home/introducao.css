@@ -1,6 +1,9 @@
 .introducao-bg{
   background: url(../../images/ChatGPT\ Image\ 24\ de\ jun.\ de\ 2025\,\ 14_25_50.png); 
-  height: 100vh;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .introducao-conteudo{
