@@ -4,6 +4,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .introducao-conteudo{
@@ -12,6 +13,7 @@
 
 .introducao-conteudo p {
   font-size: 1.2rem;
+  font-weight: 500;
   padding-top: 200px;
   text-align: center;
   color: #fff;

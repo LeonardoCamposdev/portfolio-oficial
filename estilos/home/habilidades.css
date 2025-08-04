@@ -1,5 +1,6 @@
 .habilidades-bg {
   background: url(../../images/habilidade-bg.png);
+  background-attachment: fixed;
 }
 
 .habilidades-conteudo h1 {
