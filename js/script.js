@@ -1,6 +1,8 @@
 import initMaquinaDigitar from "./modules/efeito-maquina-digitar.js";
-import initAnimacaoScrollLeft from "./modules/animacao-scroll-left.js";
-
+import { initAnimacaoScrollLeft, initAnimacaoScrollRight, initAnimacaoScrollUp, initAnimacaoScrollDown } from "./modules/scroll-animacao.js";
 
 initMaquinaDigitar();
 initAnimacaoScrollLeft();
+initAnimacaoScrollRight();
+initAnimacaoScrollUp();
+initAnimacaoScrollDown();
