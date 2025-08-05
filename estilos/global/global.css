@@ -38,7 +38,7 @@ li {
   position: fixed;
   bottom: 52px;
   right: 20px;
-  z-index: 5;
+  z-index: 555;
 }
 
 .orcamento ul li:hover {
